@@ -1,0 +1,133 @@
+      /* background is maded by myself */
+      
+      body {
+          background-image: url(../Images&files/background2.png);
+          background-repeat: repeat-y;
+          background-size: 100vw auto;
+      }
+      /* navigation */
+      
+      nav {
+          float: right;
+          margin: 1.7vw 2.1vw 0 0vw;
+      }
+      
+      nav>span {
+          color: black;
+          font-size: 1.5em;
+      }
+      
+      nav>a {
+          color: black;
+          font-size: 1.5em;
+          text-decoration: none;
+          text-align: center;
+      }
+      
+      #selected-nav {
+          color: #8a21aa;
+          font-style: italic;
+      }
+      
+      nav>a:hover {
+          color: #8239c5;
+      }
+      
+      #navigation {
+          background-color: #dfdede;
+          width: 100%;
+          height: 5vw;
+      }
+      /* home icon */
+      
+      #home-icon {
+          width: 3em;
+          height: 3em;
+          margin: 1vw 0 0 1.5vw;
+      }
+      
+      #home-icon:hover {
+          content: url('../Images&files/home2.png');
+      }
+      /* photo */
+      
+      #photo {
+          width: 15%;
+          height: 15%;
+          position: relative;
+          border-radius: 10em;
+          margin: 16vw 0 0 68vw;
+          padding-top: 2vw;
+      }
+      /* text */
+      
+      #about>h1 {
+          font-size: 4em;
+          margin: 0vw 0 0vw 0vw;
+          text-align: center;
+          font-family: 'Times New Roman';
+          font-style: italic;
+      }
+      
+      #about>p {
+          width: 50%;
+          font-size: 1.5em;
+          margin: 5vw 0 0 14vw;
+      }
+      
+      #about {
+          margin: -29vw 0 0 0;
+      }
+      
+      #contact {
+          font-size: 1.2em;
+          float: right;
+          margin: -6vw 15.5vw 0 0;
+      }
+      
+      #contact>p {
+          margin-top: -1.7vw;
+      }
+      /* side nav */
+      
+      #sub-nav {
+          display: block;
+          width: 20vw;
+          position: fixed;
+          font-size: 1.5em;
+          list-style-type: none;
+          margin-top: 10vw;
+          text-align: center;
+          border: 0.3vw solid rgb(190, 189, 189);
+          border-radius: 0.5em;
+          background-color: rgb(243, 239, 250);
+          opacity: 0.8;
+      }
+      
+      #sub-nav>bl>a>li {
+          padding-bottom: 1vw;
+      }
+      
+      #sub-nav>bl>a:hover {
+          color: #8239c5;
+      }
+      
+      #sub-nav>bl>a {
+          text-decoration: none;
+          color: black;
+      }
+      
+      #close-nav {
+          margin-left: 16vw;
+          padding-top: 0.5vw;
+          width: 1.5em;
+          height: 1.5em;
+      }
+      
+      #open-nav {
+          width: 2.4em;
+          height: 2.4em;
+          position: fixed;
+          display: none;
+          margin: 10.6vw 0 0 0vw;
+      }
