@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Peiying Song Web</title>
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/work.css">
+    <link rel="stylesheet" href="css/reflection.css">
+    <link rel="shortcut icon" href="Images&files/icon.png" type="image/x-icon">
+</head>
+
+<body>
+    <div id="navigation">
+        <nav>
+            <a href="about.html">About Me</a><span> | </span>
+            <a href="work.html" id="selected-nav">Individual Work</a><span> | </span>
+            <a href="reflection.html">Reflection</a>
+        </nav>
+        <a href="home.html"><img src="Images&files/home3.png" alt="home" id="home-icon"></a>
+    </div>
+    <img src="Images&files/open-sub.png" alt="open sub-navigation" id="open-nav" onclick="openSub()">
+
+    <div id="sub-nav">
+        <img src="Images&files/close-sub.png" alt="close sub-navigation" id="close-nav" onclick="closeSub()">
+        <bl>
+            <a href="https://deco7180teams-numbat.uqcloud.net/explore.html">
+                <li>Our project</li>
+            </a>
+            <a href="javascript:window.scrollTo( 0, 0);">
+                <li>2A Design Inspiration</li>
+            </a>
+            <a href="javascript:window.scrollTo( 0, 750);">
+                <li>2C Project Proposal</li>
+            </a>
+            <a href="javascript:window.scrollTo( 0, 1850);">
+                <li>2D Prototype</li>
+            </a>
+            <a href="javascript:window.scrollTo( 0, 7200);">
+                <li>2E Final Delivery</li>
+            </a>
+            <a href="javascript:window.scrollTo( 0, 9500);">
+                <li>3 Portfolio</li>
+            </a>
+        </bl>
+    </div>
+    <article id="article">
+        <h1>- Individual Work -</h1>
+        <h2>2A Design Inspiration</h2>
+        <section id="A2">
+            <p>For my 2A design inspiration, it’s about bike tour and sponsors. This project is created for employers to custom departments’ cycling trip. I had produced a “cycling recreation” poster at first. However, through communicating with partners
+                and tutors, I realize that it may cannot explore datasets a lot, and it may be a wrong direction. So, I have changed a lot after that, including the interface and content. Although, our team didn’t use my inspiration, I believe that it’s
+                a good idea.</p>
+            <div id="A2-img">
+                <h3>Original inspiration</h3>
+                <img src="Images&files/2A-1.jpg" alt="original inspiration" onclick="A21Picture()">
+                <div>
+                    <h3>Final inspiration</h3>
+                    <img src="Images&files/2A-2.jpg" alt="final inspiration" onclick="A22Picture()">
+                </div>
+            </div>
+        </section>
+        <h2>2C Project Proposal</h2>
+        <section id="C2">
+            <p>We have completed the proposal of our program in week 5. I have putted a link of
+                <a href="Images&files/2C-report.pdf" target="_blank"> my contribution</a> here.</p>
+            <p> We have gotten one important suggestion that is about showing the matched type of food, after showing the concept of our program in the contact of week 6. Some other food trucks which are marked by the types of food should be appearing around
+                the selected location. It’s convenient for the food merchants to compare locations with each other or think about if this location is suitable for them.
+            </p>
+            <p>Especially, the food merchants can consider if there is some same food or matched food near the selected location. For example, if one merchant wants to place a food truck of fried chicken in a particular place. It's better if there is a food
+                truck that sells cokes and beer nearby. However, this merchant should avoid a pizza truck nearby, because both pizza and fried chicken almost belong to staple food.</p>
+            <p>What’s more, how to use those five datasets more relevantly is a significant problem on a map. For the preliminary arrangement, we have intended to use some icons to represent some popular kinds of food. After clicking the icons, there are
+                some details of food trucks that sell the same kind of food, including locations, open time and so on. Also, we have tried to design two icons to represent the bus stops and ferry terminals, then the stops or terminals will appear as a
+                list after clicking. Some food trucks around the selected bus stop or ferry terminal should be listed, after clicking a bus stop or a ferry terminal.</p>
+        </section>
+        <h2>2D Prototype</h2>
+        <section id="D2">
+            <p>We have had discussion the MVP of our program in week 8. There are some basic and necessary functions which should be implemented initially, including showing marked map, searching by users, showing specific information of food trucks. We
+                make sure that a map will be designed as a background. And the users can filter the data by click some icons which are some symbols of some popular types of food.
+            </p>
+            <p>Also, there will be three drop-down boxes which can be used to select safety level of suburb, bus stop and ferry terminal. After clicking an icon or select an option from a drop-down box, the map will display some associated suburbs as a format
+                of some same icons. When click an icon on the map, the details of food trucks will display. What' more, users can search directly. Additionally, there are two charts will be displayed which are include the percentage of different types
+                of food in order to provide some suggestion for food trucks' merchants. After this contact, I have finished our low-fidelity prototyping by using Invision.</p>
+            <div><iframe src="https://projects.invisionapp.com/share/9M11OX485VCQ#/screens" scrolling="yes" frameborder="0"></iframe>
+                <a href="https://projects.invisionapp.com/share/9M11OX485VCQ#/screens" target="_blank">
+                    <p>Full Screen</p>
+                </a>
+            </div>
+            <p>
+                We have gotten some feedback about our prototyping during showing it. In fact, we have received three useful suggestions. The important one is that a user have be confused with the aim of using our web. After considering, we have made a decision to add
+                a guide in our web in order to provide some information of our web, like displaying some steps of using. Also, there will be a food truck icon added in our webpage in order to show the aim of our web directly. </p>
+            <p>Another is about the filters. All filters displaying on the map makes this webpage chaos in the visual. Thus, we will separate these filters as several parts which will be put at different positions on our web. What's more, we have made a
+                decision to delete the sharing function, after showing the lower-fidelity prototyping. Because it's not a main function that we want to display.</p>
+            <p>For our web, the "about us" page and "reference" page have coded by me, at first.</p>
+            <div id="D2-div"><img src="Images&files/work1.jpg" alt="team member" id="D21" onclick="D21Picture()">
+                <a href="Images&files/about.html" target="_blank">
+                    <p>View Code</p>
+                </a>
+                <img src="Images&files/work2.png" alt="datasets" id="D22" onclick="D22Picture()">
+                <a href="Images&files/data.html" target="_blank">
+                    <p>View Code</p>
+                </a>
+            </div>
+            <p>What's more, I have implemented displaying two datasets (bus stops and ferry terminals) on the map. I have learned how to add more layers on the map and make these layers controlled by the console on the map. Leaflet is a good tool to implement
+                a map. And also, I have gained the knowledge about leaflet, like how to change the icon on the map, and how to combine API, map and console. For API, the capital and small letters of records are significant. Since a wrong usage of the
+                format of letters, I have spent a long time to look for errors, when the map cannot display correctly.</p>
+            <div><video controls>
+                <source src="Images&files/first.mp4" type="video/mp4">
+                <source src="Images&files/first.ogg" type="video/ogg">
+                There is a video of showing the affects. Maybe your browser does not support it.</video>
+                <a href="Images&files/API.js" target="_blank">
+                    <p class="D2-API">View Code</p>
+                </a>
+            </div>
+            <p>After that, the APIs of “food trucks” are implemented by me in our program. And all three API(bus stops, ferry terminals and food trucks) can be controlled by a console.
+            </p>
+            <p>Unfortunately, the API of “food truck” cannot be used directly. One reason is that we want to show the locations of food trucks and their types of food using different icons on the map in our program, but the API of “food truck” has these
+                two attributes separately in two tables. So, I have tried to use SQL in order to combine the attributes we needed from two tables.</p>
+            <p>Another reason is the format of “food truck” API has changed. Firstly, I had downloaded the csv files, imported them into the local phpMyAdmin5 and then exported as a SQL file. Also, I had coded the php for this API. In fact, it can be used
+                on my computer, but it’s troublesome for my team members to have a look and code other functions based on my SQL file, since they have to create their own database firstly. Thus, I have changed the methods of using “food truck” API. I
+                have exported a json file from local phpMyAdmin5 as our program’s database. It’s convenient for other team members to use, because it can be used directly.</p>
+            <div id="D2-div2"><img src="Images&files/database.jpg" alt="database" id="D23" onclick="D23Picture()">
+                <img src="Images&files/sql.png" alt="SQL" id="D24" onclick="D24Picture()">
+            </div>
+            <p>Finally, there is a problem costing much time when I’m coding JavaScript. I don’t know why my code doesn’t work when I try to implement the data filtering. After checking several times, I have realized that the capacity or size of list in
+                JavaScript should use “list.length”, but “list.size()”which is written by me is wrong. Maybe I will remember this error for a long time.</p>
+            <div><video controls>
+                <source src="Images&files/second.mov" type="video/mp4">
+                <source src="Images&files/second.ogg" type="video/ogg">
+                There is a video of showing the affects. Maybe your browser does not support it.</video>
+                <a href="Images&files/foodFilter.js" target="_blank">
+                    <p class="D2-API">View Code</p>
+                </a>
+            </div>
+        </section>
+        <h2>2E Final Delivery</h2>
+        <section id="E2">
+            <p>I have realized that the bus stops’ icons is too many covered each other, after receiving the feedback of the 2D work-in-Progress report. The distribution of bus stops has been changed a lot by me. There are more than 6000 records in the datasets
+                of bus stops. Originally, I had displayed 500 locations of bus stops. However, there are too many bus stops’ icons covered and accumulated on the map. For this reason, I have added some code to filter simply records. Now, the distribution
+                of bus stops looks better than before.</p>
+            <div>
+                <p>Before changing</p>
+                <video controls>
+                    <source src="Images&files/third.mov" type="video/mp4">
+                    <source src="Images&files/third.ogg" type="video/ogg">
+                    There is a video of showing the affects. Maybe your browser does not support it.</video>
+                <p>After changing</p>
+                <video controls>
+                        <source src="Images&files/fourth.mov" type="video/mp4">
+                        <source src="Images&files/fourth.ogg" type="video/ogg">
+                        There is a video of showing the affects. Maybe your browser does not support it.</video>
+                <a href="Images&files/change.js" target="_blank">
+                    <p class="D2-API">View Code</p>
+                </a>
+            </div>
+            <p>What's more, I have prepared
+                <a href="Images&files/show.pdf" target="_blank">a ppt</a>and
+                <a href="Images&files/trade-show.pdf" target="_blank">a speech draft</a> for the presentation of trade show. Also, I have written
+                <a href="Images&files/final-report.pdf" target="_blank">two parts of 2E report</a>.</p>
+        </section>
+        <h2>3 Portfolio</h2>
+        <section id="portfolio">
+            <p>In fact, most of my expectations have implemented, but my home page cannot be implemented as my idea. I had intended to design that there is a lighting on the home page everywhere the mouse hover or pass. Besides that, I had designed a filling
+                effect before which is flexible when hovering the “explore” button. However, it’s so difficult for me and I have tried some times in order to achieve it. I have noticed that I’m not good at to code JavaScript, so all things on the web
+                are static. In the future, I will learn more knowledge about JavaScript and try my best to let all elements are flexible.</p>
+        </section>
+    </article>
+    <div id="A2-1-full" class="A2-full"><img src="Images&files/2A-1.jpg" alt="original inspiration" id="A2-1" class="A2picture">
+        <img src="Images&files/close.png" alt="close the picture" id="close-A2picture" onclick="closeA21Picture()">
+    </div>
+    <div id="A2-2-full" class="A2-full"><img src="Images&files/2A-2.jpg" alt="final inspiration" id="A2-2" class="A2picture">
+        <img src="Images&files/close.png" alt="close the picture" id="close-A2picture" onclick="closeA22Picture()">
+    </div>
+    <div id="D2-1-full" class="D2-full"><img src="Images&files/work1.jpg" alt="about us" id="D2-1" class="D2picture">
+        <img src="Images&files/close.png" alt="close the picture" id="close-D2picture" onclick="closeD21Picture()">
+    </div>
+    <div id="D2-2-full" class="D2-full"><img src="Images&files/work2.png" alt="datasets" id="D2-2" class="D2picture">
+        <img src="Images&files/close.png" alt="close the picture" id="close-D2picture" onclick="closeD22Picture()">
+    </div>
+    <div id="D2-3-full" class="D2-full"><img src="Images&files/database.jpg" alt="database" id="D2-3" class="D21picture">
+        <img src="Images&files/close.png" alt="close the picture" id="close-D2picture" onclick="closeD23Picture()">
+    </div>
+    <div id="D2-4-full" class="D2-full"><img src="Images&files/sql.png" alt="sql" id="D2-4" class="D21picture">
+        <img src="Images&files/close.png" alt="close the picture" id="close-D2picture" onclick="closeD24Picture()">
+    </div>
+    <script src="js/script.js"></script>
+    <script src="js/work.js"></script>
+</body>
+
+</html>

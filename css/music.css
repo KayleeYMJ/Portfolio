@@ -1,0 +1,22 @@
+#play-music,
+#pause-music {
+    width: 2.5em;
+    height: 2.5em;
+    padding-left: 1vw;
+}
+
+#pause-music {
+    display: block;
+}
+
+#play-music {
+    display: none;
+}
+
+#pause-music:hover {
+    content: url('../Images&files/play4.png');
+}
+
+#play-music:hover {
+    content: url('../Images&files/pause4.png');
+}
