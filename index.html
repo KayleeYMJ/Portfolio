@@ -3,15 +3,20 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Kaylee Song's Web</title>
-    <link rel="stylesheet" href="css/frame.css">
+    <title>Kaylee's Web</title>
+    <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="Images&files/icon.png" type="image/x-icon">
 </head>
 
 <body>
-    <iframe src="music.html" scrolling="no" frameborder="0" id="music"></iframe>
-    <iframe src="home.html" scrolling="yes" frameborder="0" id="content"></iframe>
-
+    <canvas onmouseover="light(event)" onmouseout="black(event)"></canvas>
+    <img src="Images&files/home.png" alt="home" id="white-home">
+    <div>
+        <h1>Hi, I'm Kaylee Song.</h1>
+        <h2>Welcome to my website.</h1>
+    </div>
+    <a href="projects.html" id="explore-button">Explore Site</a>
+    <script src="js/script.js"></script>
 </body>
 
 </html>

@@ -34,15 +34,14 @@
       }
       
       #navigation {
-          background-color: #dfdede;
           width: 100%;
           height: 5vw;
       }
       /* home icon */
       
       #home-icon {
-          width: 3em;
-          height: 3em;
+          width: 3.5vw;
+          height: 3.5vw;
           margin: 1vw 0 0 1.5vw;
       }
       

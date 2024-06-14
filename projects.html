@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Peiying Song Web</title>
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/projects.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="shortcut icon" href="Images&files/icon.png" type="image/x-icon">
+</head>
+
+<body>
+    <div id="navigation">
+        <nav>
+            <a href="projects.html" id="selected-nav">Projects</a>
+            <span> | </span>
+            <a href="about.html">About Me</a>
+            <span> | </span>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <a href="index.html"><img src="Images&files/home3.png" alt="home" id="home-icon"></a>
+    </div>
+    <img src="Images&files/open-sub.png" alt="open sub-navigation" id="open-nav" onclick="openSub()">
+
+    <div id="sub-nav">
+        <img src="Images&files/close-sub.png" alt="close sub-navigation" id="close-nav" onclick="closeSub()">
+        <bl>
+            <a href="https://deco7180teams-numbat.uqcloud.net/explore.html">
+                <li>Our project</li>
+            </a>
+            <a href="javascript:window.scrollTo( 0, 0);">
+                <li>2A Design Inspiration</li>
+            </a>
+            <a href="javascript:window.scrollTo( 0, 750);">
+                <li>2C Project Proposal</li>
+            </a>
+            <a href="javascript:window.scrollTo( 0, 1850);">
+                <li>2D Prototype</li>
+            </a>
+            <a href="javascript:window.scrollTo( 0, 7200);">
+                <li>2E Final Delivery</li>
+            </a>
+            <a href="javascript:window.scrollTo( 0, 9500);">
+                <li>3 Portfolio</li>
+            </a>
+        </bl>
+    </div>
+    <article id="article">
+        <h1>- My Projects -</h1>
+        <h2>2A Design Inspiration</h2>
+        <section id="A2">
+            <div id="A2-img">
+            </div>
+        </section>
+        <h2>2C Project Proposal</h2>
+        <section id="C2">
+        </section>
+        <h2>2D Prototype</h2>
+        <section id="D2">
+
+
+        </section>
+        <h2>2E Final Delivery</h2>
+        <section id="E2">
+
+        </section>
+        <h2>3 Portfolio</h2>
+        <section id="portfolio">
+            <p> </p>
+        </section>
+    </article>
+    <div id="A2-1-full" class="A2-full"><img src="Images&files/2A-1.jpg" alt="original inspiration" id="A2-1" class="A2picture">
+        <img src="Images&files/close.png" alt="close the picture" id="close-A2picture" onclick="closeA21Picture()">
+    </div>
+    <div id="A2-2-full" class="A2-full"><img src="Images&files/2A-2.jpg" alt="final inspiration" id="A2-2" class="A2picture">
+        <img src="Images&files/close.png" alt="close the picture" id="close-A2picture" onclick="closeA22Picture()">
+    </div>
+    <div id="D2-1-full" class="D2-full"><img src="Images&files/work1.jpg" alt="about us" id="D2-1" class="D2picture">
+        <img src="Images&files/close.png" alt="close the picture" id="close-D2picture" onclick="closeD21Picture()">
+    </div>
+    <div id="D2-2-full" class="D2-full"><img src="Images&files/work2.png" alt="datasets" id="D2-2" class="D2picture">
+        <img src="Images&files/close.png" alt="close the picture" id="close-D2picture" onclick="closeD22Picture()">
+    </div>
+    <div id="D2-3-full" class="D2-full"><img src="Images&files/database.jpg" alt="database" id="D2-3" class="D21picture">
+        <img src="Images&files/close.png" alt="close the picture" id="close-D2picture" onclick="closeD23Picture()">
+    </div>
+    <div id="D2-4-full" class="D2-full"><img src="Images&files/sql.png" alt="sql" id="D2-4" class="D21picture">
+        <img src="Images&files/close.png" alt="close the picture" id="close-D2picture" onclick="closeD24Picture()">
+    </div>
+    <script src="js/script.js"></script>
+    <script src="js/projects.js"></script>
+</body>
+
+</html>
