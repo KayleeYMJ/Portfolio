@@ -1,4 +1,4 @@
-      /* background is maded by myself */
+      /* background */
       
       body {
           background-image: url(../Images&files/background2.png);
@@ -14,12 +14,12 @@
       
       nav>span {
           color: black;
-          font-size: 1.5em;
+          font-size: 1.5vw;
       }
       
       nav>a {
           color: black;
-          font-size: 1.5em;
+          font-size: 2vw;
           text-decoration: none;
           text-align: center;
       }
@@ -53,16 +53,16 @@
       #photo {
           width: 15%;
           height: 15%;
-          position: relative;
+          position: static;
           border-radius: 10em;
-          margin: 16vw 0 0 68vw;
+          margin: 15vw 0 0 68vw;
           padding-top: 2vw;
       }
       /* text */
       
       #about>h1 {
-          font-size: 4em;
-          margin: 0vw 0 0vw 0vw;
+          font-size: 3.5vw;
+          margin: -15vw 0vw 0vw 0vw;
           text-align: center;
           font-family: 'Times New Roman';
           font-style: italic;
@@ -70,8 +70,8 @@
       
       #about>p {
           width: 50%;
-          font-size: 1.5em;
-          margin: 5vw 0 0 14vw;
+          font-size: 1.5vw;
+          margin: 4vw 0 0 14vw;
       }
       
       #about {
