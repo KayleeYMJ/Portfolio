@@ -1,0 +1,85 @@
+/* background */
+
+body {
+    background-image: url(../Images&files/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* home icon */
+
+#white-home {
+    width: 3.5vw;
+    height: 3.5vw;
+    padding: 1vw 0 0 1.5vw;
+    margin-right: -0.5vw;
+    position: relative;
+    z-index: 2;
+}
+
+#white-home:hover {
+    content: url('../Images&files/home2.png');
+}
+
+
+/* canvas */
+
+body>canvas {
+    height: 110%;
+    width: 110%;
+    position: fixed;
+    z-index: 1;
+    background-color: rgb(73, 72, 72);
+    opacity: 0.75;
+    padding: 0%;
+    margin: -2vw 0 0 -5vw;
+}
+
+
+/* fonts */
+
+div>h1 {
+    font-size: 4.5vw;
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman';
+    font-style: italic;
+}
+
+div>h2 {
+    font-size: 3.5vw;
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman';
+    font-style: italic;
+}
+
+body>div {
+    margin-top: 10vw;
+    position: relative;
+    z-index: 2;
+}
+
+
+/* button */
+
+#explore-button {
+    text-align: center;
+    margin-left: -15.5vw;
+    color: white;
+    font-size: 2.2vw;
+    text-decoration: none;
+    padding: 0.3vw 0.7vw 0.3vw 0.7vw;
+    border-style: dotted;
+    border-radius: 0.6vw;
+    position: relative;
+    z-index: 3;
+    margin: 0 0 0 42vw;
+}
+
+#explore-button:hover {
+    background-color: #DBB0FD;
+    color: rgb(0, 0, 0);
+    opacity: 0.5;
+}

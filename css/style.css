@@ -1,108 +1,50 @@
-/* background */
-
-body {
-    background-image: url(../Images&files/background.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-body>canvas {
-    height: 110%;
-    width: 110%;
-    position: fixed;
-    z-index: 1;
-    background-color: rgb(73, 72, 72);
-    opacity: 0.75;
-    padding: 0%;
-    margin: -2vw 0 0 -5vw;
-}
-
-
-/* navigation */
-
-nav {
-    float: right;
-    margin: 1.7vw 0 0 66.8vw;
-    position: fixed;
-    z-index: 2;
-}
-
-nav>span {
-    color: white;
-    font-size: 1.5em;
-}
-
-nav>a {
-    color: white;
-    font-size: 1.5em;
-    text-decoration: none;
-    text-align: center;
-}
-
-nav>a:hover {
-    color: #DBB0FD;
-}
-
-
-/* home icon */
-
-#white-home {
-    width: 3.5vw;
-    height: 3.5vw;
-    padding: 1vw 0 0 1.5vw;
-    margin-right: -0.5vw;
-    position: relative;
-    z-index: 2;
-}
-
-#white-home:hover {
-    content: url('../Images&files/home2.png');
-}
-
-
-/* fonts */
-
-div>h1 {
-    font-size: 4.5vw;
-    color: white;
-    text-align: center;
-    font-family: 'Times New Roman';
-    font-style: italic;
-}
-
-div>h2 {
-    font-size: 3.5vw;
-    color: white;
-    text-align: center;
-    font-family: 'Times New Roman';
-    font-style: italic;
-}
-
-body>div {
-    margin-top: 10vw;
-    position: relative;
-    z-index: 2;
-}
-
-
-/* button */
-
-#explore-button {
-    text-align: center;
-    margin-left: -15.5vw;
-    color: white;
-    font-size: 2.2vw;
-    text-decoration: none;
-    padding: 0.3vw 0.7vw 0.3vw 0.7vw;
-    border-style: dotted;
-    border-radius: 0.6vw;
-    position: relative;
-    z-index: 3;
-    margin: 0 0 0 42vw;
-}
-
-#explore-button:hover {
-    background-color: #DBB0FD;
-    color: rgb(0, 0, 0);
-    opacity: 0.5;
-}
+      /* background */
+      
+      body {
+          background-image: url(../Images&files/background2.png);
+          background-repeat: repeat-y;
+          background-size: 100vw auto;
+      }
+      /* navigation */
+      
+      nav {
+          float: right;
+          margin: 1.7vw 2.1vw 0 0vw;
+      }
+      
+      nav>span {
+          color: black;
+          font-size: 1.5vw;
+      }
+      
+      nav>a {
+          color: black;
+          font-size: 2vw;
+          text-decoration: none;
+          text-align: center;
+      }
+      
+      #selected-nav {
+          color: #8a21aa;
+          font-style: italic;
+      }
+      
+      nav>a:hover {
+          color: #8239c5;
+      }
+      
+      #navigation {
+          width: 100%;
+          height: 5vw;
+      }
+      /* home icon */
+      
+      #home-icon {
+          width: 3.5vw;
+          height: 3.5vw;
+          margin: 1vw 0 0 1.5vw;
+      }
+      
+      #home-icon:hover {
+          content: url('../Images&files/home2.png');
+      }

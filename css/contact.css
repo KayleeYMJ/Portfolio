@@ -1,45 +1,70 @@
-/* navigation */
-
-#navigation {
-    position: fixed;
-    margin-top: -4vw;
-    z-index: 1;
-}
-
-
 /* text */
 
-body>article>h1 {
-    font-size: 3em;
-    margin: 4.5vw 0 0vw 0vw;
+body>h1 {
+    font-size: 3.5vw;
     text-align: center;
     font-family: 'Times New Roman';
     font-style: italic;
-    position: relative;
-    padding-top: 5vw;
+    position: static;
     z-index: 0;
+    margin-top: 2vw;
 }
 
-h2 {
-    font-size: 1.7em;
-    text-align: left;
-    width: 50%;
-    margin: 5vw 0 -3vw 26vw;
-    color: #8a21aa;
+
+/* contact options */
+
+#contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    perspective: 500px;
+    margin-top: -3vw;
+    margin-right: -4vw;
 }
 
-article>h3 {
-    font-size: 1.5em;
-    text-align: left;
-    margin: 5vw 0 -3vw 26vw;
-    width: 50%;
-    color: #8a21aa;
+.front {
+    transition: 0.5s;
+    position: relative;
+    width: 25vw;
+    height: 20vw;
+    border-radius: 4em;
+    margin-right: 4vw;
+    backface-visibility: hidden;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+    background-image: linear-gradient(200deg, #e0c7e3, #badbe9);
 }
 
-#Personal-Skill>h3 {
-    font-size: 1em;
-    text-align: left;
-    width: 50%;
-    color: #8a21aa;
-    margin: 2vw 0 2vw 0vw;
+.back {
+    position: relative;
+    width: 25vw;
+    height: 20vw;
+    border-radius: 4em;
+    margin-right: 4vw;
+    background-image: linear-gradient(200deg, #e0c7e3, #badbe9);
+    backface-visibility: hidden;
+    transition: all 0.5s;
+    transform: rotateY(180deg);
+    margin-top: -21.2vw;
+}
+
+.card:hover .front {
+    transform: rotateY(180deg);
+}
+
+.card:hover .back {
+    transform: rotateY(0);
+}
+
+#email:hover .back {
+    margin-right: 7vw;
+}
+
+#linkedin:hover .back {
+    margin-left: 3vw;
+    margin-right: 7vw;
+}
+
+#phone:hover .back {
+    margin-left: 3vw;
 }
