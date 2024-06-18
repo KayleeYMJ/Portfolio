@@ -5,7 +5,7 @@
     height: 15%;
     position: static;
     border-radius: 10em;
-    margin: 10vw 0 0 68vw;
+    margin: 10vw 0 0 70vw;
     padding-top: 2vw;
 }
 
@@ -24,6 +24,7 @@
     width: 50%;
     font-size: 1.5vw;
     margin: 3vw 0 0 14vw;
+    background-color: white;
 }
 
 #about {
@@ -36,6 +37,13 @@
 
 #side {
     position: static;
-    margin: -27vw 0 0 68vw;
+    margin: -27vw 0 0 65vw;
     font-size: 1.5vw;
+    border-color: #DBB0FD;
+    border-width: 0.35vw;
+    border-style: dotted;
+    border-radius: 1vw;
+    padding-left: 2vw;
+    width: 22vw;
+    background-color: white;
 }

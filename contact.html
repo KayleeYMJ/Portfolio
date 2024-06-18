@@ -22,33 +22,45 @@
     </div>
 
     <h1>- Contact Me -</h1>
-    <p>Please feel free to contact me.</p>
-    <div id="contact">
-        <div class="card" id="email">
-            <div class="front">
-                <p>Email</p>
-            </div>
-            <div class="back">
-                <p>kaylee.song.it@gmail.com</p>
-            </div>
-        </div>
-        <div class="card" id="linkedin">
-            <div class="front">
-                <p>Linkedin</p>
-            </div>
-            <div class="back">
-                <p>www.linkedin.com/in/kayleesong</p>
-            </div>
-        </div>
-        <div class="card" id="phone">
-            <div class="front">
-                <p>Phone</p>
-            </div>
-            <div class="back">
-                <p>0490 864 517</p>
-            </div>
-        </div>
+    <article id="words">
+        <h2>Let's talk</h2>
+        <p>Do you have any questions or any suggestions for me? </p>
+        <p>Do you prefer to share something with me? </p>
+        <p>Please mail me at
+            <span id="textToCopy" title="click to copy" onclick="copyText('textToCopy');alert('Successfully copied!')">kaylee.song.it@gmail.com</span>
+        </p>
+        <a href="mailto:kaylee.song.it@gmail.com">
+            <img src="Images&files/email1.png" alt="original email" id="email" title="send an email">
+        </a>
+        <a href="https://www.linkedin.com/in/kayleesong/">
+            <img src="Images&files/linkedin1.png" alt="original linkedin" id="linkedin" title="visit Linkedin">
+        </a>
+    </article>
+
+    <div id="form">
+        <h2>Send me a message</h2>
+        <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
+        <script>
+            // submit form
+            hbspt.forms.create({
+                region: "na1",
+                portalId: "46509569",
+                formId: "ce5884a2-b600-43db-8e89-fb873f216ac4"
+            });
+        </script>
     </div>
+
+    <script>
+        // copy email address
+        function copyText(elementId) {
+            var input = document.createElement("input");
+            input.value = document.getElementById(elementId).innerHTML;
+            document.body.appendChild(input);
+            input.select();
+            document.execCommand("copy");
+            document.body.removeChild(input);
+        }
+    </script>
 </body>
 
 </html>

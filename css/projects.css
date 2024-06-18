@@ -65,3 +65,56 @@
         margin-top: 0vw;
         padding-bottom: 2vw;
     }
+    /* contact options */
+    
+    #contact {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 75vh;
+        perspective: 500px;
+        margin-top: -3vw;
+        margin-right: -4vw;
+    }
+    
+    .front {
+        transition: 0.5s;
+        position: relative;
+        width: 25vw;
+        height: 20vw;
+        border-radius: 4em;
+        margin-right: 4vw;
+        backface-visibility: hidden;
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+        background-image: linear-gradient(200deg, #e0c7e3, #badbe9);
+    }
+    
+    .back {
+        position: relative;
+        width: 25vw;
+        height: 20vw;
+        border-radius: 4em;
+        margin-right: 4vw;
+        background-image: linear-gradient(200deg, #e0c7e3, #badbe9);
+        backface-visibility: hidden;
+        transition: all 0.5s;
+        transform: rotateY(180deg);
+        margin-top: -21.2vw;
+    }
+    
+    .card:hover .front {
+        transform: rotateY(180deg);
+    }
+    
+    .card:hover .back {
+        transform: rotateY(0);
+    }
+    
+    #email:hover .back {
+        margin-right: 7vw;
+    }
+    
+    #linkedin:hover .back {
+        margin-left: 3vw;
+        margin-right: 7vw;
+    }
