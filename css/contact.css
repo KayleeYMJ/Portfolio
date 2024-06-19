@@ -3,7 +3,6 @@
     body>h1 {
         font-size: 3.5vw;
         text-align: center;
-        font-family: 'Times New Roman';
         font-style: italic;
         position: static;
         z-index: 0;
@@ -15,7 +14,7 @@
         width: 40.5%;
         height: 60%;
         margin-top: 10vw;
-        margin-left: 5vw;
+        margin-left: 6vw;
         border-style: dotted;
         border-radius: 1vw;
         padding-bottom: 4vw;
@@ -66,7 +65,7 @@
         width: 50%;
         height: 70%;
         float: right;
-        margin-top: -29vw;
+        margin-top: -27vw;
         margin-right: -5vw;
     }
     

@@ -15,7 +15,6 @@
     font-size: 3.5vw;
     margin: -31vw 0vw 0vw 0vw;
     text-align: center;
-    font-family: 'Times New Roman';
     font-style: italic;
 }
 
@@ -36,7 +35,7 @@
 
 #side {
     position: static;
-    margin: -27vw 0 0 65vw;
+    margin: -20vw 0 0 65vw;
     font-size: 1.5vw;
     border-color: #DBB0FD;
     border-width: 0.35vw;

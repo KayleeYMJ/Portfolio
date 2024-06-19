@@ -48,3 +48,11 @@
       #home-icon:hover {
           content: url('../Images&files/home2.png');
       }
+      /* text */
+      
+      p,
+      h1,
+      h2,
+      a {
+          font-family: 'Times New Roman';
+      }

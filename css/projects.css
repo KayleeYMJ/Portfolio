@@ -1,109 +1,141 @@
-           /* title */
-           
-           body>h1 {
-               font-size: 3.5vw;
-               text-align: center;
-               font-family: 'Times New Roman';
-               font-style: italic;
-               position: static;
-               z-index: 0;
-               margin-top: 2vw;
-           }
-           /* projects list */
-           
-           #projects {
-               justify-content: center;
-               align-items: center;
-               perspective: 500px;
-               display: flex;
-               width: 90%;
-               flex-wrap: wrap;
-               margin-left: 5vw;
-               margin-top: -1vw;
-           }
-           
-           .card {
-               width: 17vw;
-               height: 17vw;
-               margin: 1vw 2vw 2vw 2vw;
-           }
-           
-           .front {
-               transition: 0.5s;
-               position: relative;
-               width: 17vw;
-               height: 17vw;
-               border-radius: 1.5vw;
-               margin-right: 4vw;
-               backface-visibility: hidden;
-               box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
-               background-image: linear-gradient(200deg, #e0c7e3, #badbe9);
-           }
-           
-           .back {
-               position: relative;
-               width: 17vw;
-               height: 17vw;
-               border-radius: 1.5vw;
-               background-image: linear-gradient(200deg, #e0c7e3, #badbe9);
-               backface-visibility: hidden;
-               transition: all 0.5s;
-               transform: rotateY(180deg);
-               margin-top: -18.2vw;
-           }
-           
-           .card:hover .front {
-               transform: rotateY(180deg);
-           }
-           
-           .card:hover .back {
-               transform: rotateY(0);
-               margin-right: 7vw;
-           }
-           
-           .pictures {
-               width: 14vw;
-               height: 14vw;
-               border-radius: 1.5vw;
-           }
-           
-           .back .pictures {
-               margin-top: -1.4vw;
-               margin-left: 1.5vw;
-           }
-           
-           .front .pictures {
-               margin-top: -1.3vw;
-               margin-left: 1.6vw;
-           }
-           
-           .pro-title {
-               font-size: 1.5vw;
-               text-align: center;
-           }
-           
-           .picture {
-               width: 12vw;
-               height: 12vw;
-               border-radius: 1.5vw;
-               margin-top: -1.3vw;
-               margin-left: 2.5vw;
-           }
-           /* return to top */
-           
-           #top {
-               width: 3vw;
-               height: 3vw;
-               margin: 10vw 10vw 10vw 10vw;
-               float: right;
-               border-radius: 0.5vw;
-               box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
-           }
-           
-           #top:hover {
-               content: url('../Images&files/top2.png');
-               box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
-           }
-           /* text */
-           
-           article>h2 {}
+/* title */
+
+body>h1 {
+    font-size: 3.5vw;
+    text-align: center;
+    font-style: italic;
+    position: static;
+    z-index: 0;
+    margin-top: 2vw;
+}
+
+
+/* projects cards */
+
+#projects {
+    justify-content: center;
+    align-items: center;
+    perspective: 500px;
+    display: flex;
+    width: 90%;
+    flex-wrap: wrap;
+    margin-left: 5vw;
+    margin-top: -1vw;
+}
+
+.card {
+    width: 17vw;
+    height: 17vw;
+    margin: 1vw 2vw 2vw 2vw;
+}
+
+.front {
+    transition: 0.5s;
+    position: relative;
+    width: 17vw;
+    height: 17vw;
+    border-radius: 1.5vw;
+    margin-right: 4vw;
+    backface-visibility: hidden;
+    box-shadow: 3px 6px 5px rgba(0, 0, 0, 0.2);
+    border-width: 0.35vw;
+    border-style: dotted;
+    border-color: #DBB0FD;
+    border-radius: 1vw;
+    background-color: white;
+}
+
+.back {
+    position: relative;
+    width: 17vw;
+    height: 17vw;
+    border-radius: 1.5vw;
+    border-width: 0.35vw;
+    border-style: dotted;
+    border-color: #DBB0FD;
+    border-radius: 1vw;
+    backface-visibility: hidden;
+    transition: all 0.5s;
+    transform: rotateY(180deg);
+    margin-top: -17.6vw;
+    background-color: white;
+}
+
+.card:hover .front {
+    transform: rotateY(180deg);
+}
+
+.card:hover .back {
+    transform: rotateY(0);
+    margin-right: 7vw;
+}
+
+.pictures {
+    width: 14vw;
+    height: 14vw;
+    border-radius: 1.5vw;
+}
+
+.back .pictures {
+    margin-top: -1.2vw;
+    margin-left: 1.5vw;
+}
+
+.front .pictures {
+    margin-top: -1.1vw;
+    margin-left: 1.6vw;
+}
+
+.pro-title {
+    text-align: center;
+    margin-top: 0.4vw;
+}
+
+p {
+    font-size: 1.5vw;
+}
+
+
+/* return to top */
+
+#top {
+    width: 3vw;
+    height: 3vw;
+    margin: 10vw 10vw 10vw 10vw;
+    float: right;
+    border-radius: 0.5vw;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    display: inline;
+    z-index: 1;
+}
+
+#top:hover {
+    content: url('../Images&files/top2.png');
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+/* text */
+
+article {
+    width: 80%;
+    margin: 0 auto;
+}
+
+article>h2 {
+    font-size: 2vw;
+}
+
+article>section {
+    margin-bottom: 2vw;
+    background-color: white;
+}
+
+section>a {
+    color: #000;
+}
+
+section>a:hover {
+    background-color: #DBB0FD;
+}

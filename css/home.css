@@ -39,11 +39,16 @@ body>canvas {
 
 /* fonts */
 
+h1,
+h2,
+a {
+    font-family: 'Times New Roman';
+}
+
 div>h1 {
     font-size: 4.5vw;
     color: white;
     text-align: center;
-    font-family: 'Times New Roman';
     font-style: italic;
 }
 
@@ -51,7 +56,6 @@ div>h2 {
     font-size: 3.5vw;
     color: white;
     text-align: center;
-    font-family: 'Times New Roman';
     font-style: italic;
 }
 
@@ -70,7 +74,7 @@ body>div {
     color: white;
     font-size: 2.2vw;
     text-decoration: none;
-    padding: 0.3vw 0.7vw 0.3vw 0.7vw;
+    padding: 0.5vw 0.9vw 0.6vw 0.8vw;
     border-style: dotted;
     border-radius: 0.6vw;
     position: relative;
