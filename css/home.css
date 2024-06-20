@@ -22,17 +22,10 @@ body {
     content: url('../Images&files/home2.png');
 }
 
-
-/* canvas */
-
 body>canvas {
-    height: 110%;
-    width: 110%;
     position: fixed;
     display: block;
     z-index: 1;
-    background-color: rgb(73, 72, 72);
-    opacity: 0.75;
     margin: -2vw 0 0 -5vw;
 }
 
@@ -47,22 +40,21 @@ a {
 
 div>h1 {
     font-size: 4.5vw;
-    color: white;
-    text-align: center;
-    font-style: italic;
 }
 
 div>h2 {
     font-size: 3.5vw;
-    color: white;
-    text-align: center;
-    font-style: italic;
 }
 
 body>div {
     margin-top: 10vw;
     position: relative;
     z-index: 2;
+    width: 50%;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    margin-left: 25vw;
 }
 
 
