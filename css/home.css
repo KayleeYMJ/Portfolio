@@ -40,16 +40,18 @@ a {
 
 div>h1 {
     font-size: 4.5vw;
+    position: relative;
+    z-index: 2;
 }
 
 div>h2 {
     font-size: 3.5vw;
+    position: relative;
+    z-index: 2;
 }
 
 body>div {
     margin-top: 10vw;
-    position: relative;
-    z-index: 2;
     width: 50%;
     color: white;
     text-align: center;

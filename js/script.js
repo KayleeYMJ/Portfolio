@@ -1,5 +1,7 @@
 var canvas = document.getElementById('myCanvas');
 var ctx = canvas.getContext('2d');
+var curX = 0;
+var curY = 0;
 
 //initial canvas
 ctx.fillStyle = 'rgb(73, 72, 72, 0.75)';
@@ -7,16 +9,10 @@ ctx.fillRect(0, 0, 5000, 3000);
 
 //erase color
 canvas.addEventListener('mousemove', function(e) {
-    clearArcFun(e.x + 55, e.y + 20, 30, ctx);
+    curX = e.x + 55;
+    curY = e.y + 20;
+    clearArcFun(e.x + 55, e.y + 20, 25, ctx);
 });
-
-// recover color
-setInterval(function() {
-    ctx.clearRect(0, 0, canvas.width, canvas.height);
-    ctx.fillStyle = 'rgb(73, 72, 72, 0.75)';
-    ctx.fillRect(0, 0, 5000, 3000);
-}, 80)
-
 
 //erase as a circle
 function clearArcFun(x, y, r, ctx) {
@@ -38,3 +34,10 @@ function clearArcFun(x, y, r, ctx) {
         }
     }
 }
+
+// recover color
+setInterval(function() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    ctx.fillRect(0, 0, 5000, 3000);
+    clearArcFun(curX, curY, 25, ctx);
+}, 80)
