@@ -29,15 +29,15 @@ body>canvas {
     height: 110%;
     width: 110%;
     position: fixed;
+    display: block;
     z-index: 1;
     background-color: rgb(73, 72, 72);
     opacity: 0.75;
-    padding: 0%;
     margin: -2vw 0 0 -5vw;
 }
 
 
-/* fonts */
+/* headlines */
 
 h1,
 h2,
