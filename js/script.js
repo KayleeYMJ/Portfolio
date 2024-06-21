@@ -11,7 +11,7 @@ ctx.fillRect(0, 0, 5000, 3000);
 canvas.addEventListener('mousemove', function(e) {
     curX = e.x + 55;
     curY = e.y + 20;
-    clearArcFun(e.x + 55, e.y + 20, 25, ctx);
+    clearArcFun(e.x + 55, e.y + 20, 80, ctx);
 });
 
 //erase as a circle
@@ -39,5 +39,5 @@ function clearArcFun(x, y, r, ctx) {
 setInterval(function() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
     ctx.fillRect(0, 0, 5000, 3000);
-    clearArcFun(curX, curY, 25, ctx);
-}, 80)
+    clearArcFun(curX, curY, 80, ctx);
+}, 50)
