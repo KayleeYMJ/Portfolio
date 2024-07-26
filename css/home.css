@@ -76,7 +76,7 @@ body>div {
 
 /* responsive design */
 
-@media screen and (min-width:700px) {
+@media screen and (min-width:701px) {
     #explore-button:hover {
         background-color: #DBB0FD;
         color: rgb(0, 0, 0);
@@ -87,7 +87,7 @@ body>div {
     }
 }
 
-@media screen and (max-width:900px) {
+@media screen and (max-width:700px) {
     body {
         background-size: contain;
     }

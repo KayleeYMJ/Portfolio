@@ -161,4 +161,10 @@ section>p>a {
     #projects {
         display: none
     }
+    section>h2 {
+        font-size: 3.5vw;
+    }
+    section>p {
+        font-size: 3vw;
+    }
 }

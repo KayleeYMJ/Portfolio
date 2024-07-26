@@ -45,3 +45,12 @@
     width: 22vw;
     background-color: white;
 }
+
+
+/* responsive design */
+
+@media screen and (max-width:900px) {
+    #side {
+        margin-top: -150vw;
+    }
+}
