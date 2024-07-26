@@ -96,18 +96,6 @@ p {
     font-size: 1.5vw;
 }
 
-@media screen and (min-width:700px) {
-    #projects {
-        display: flex
-    }
-}
-
-@media screen and (max-width:701px) {
-    #projects {
-        display: none
-    }
-}
-
 
 /* return to top */
 
@@ -160,4 +148,19 @@ section>p>a {
 section>a:hover,
 section>p>a:hover {
     background-color: #DBB0FD;
+}
+
+
+/* responsive design */
+
+@media screen and (min-width:901px) {
+    #projects {
+        display: flex
+    }
+}
+
+@media screen and (max-width:900px) {
+    #projects {
+        display: none
+    }
 }
