@@ -28,13 +28,13 @@ body>h1 {
     }
 }
 
-@media screen and (max-width:1023px) and (min-width:768px) {
+@media screen and (max-width:1023px) and (min-width:751px) {
     #projects {
         display: none
     }
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width:750px) {
     #projects {
         display: none
     }
