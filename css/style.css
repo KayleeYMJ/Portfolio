@@ -45,8 +45,10 @@
           margin: 1vw 0 0 1.5vw;
       }
       
-      #home-icon:hover {
-          content: url('../Images&files/home2.png');
+      @media screen and (min-width:900px) {
+          #home-icon:hover {
+              content: url('../Images&files/home2.png');
+          }
       }
       /* text */
       

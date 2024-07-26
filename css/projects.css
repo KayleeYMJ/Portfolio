@@ -112,11 +112,6 @@ p {
     background-color: white;
 }
 
-#top:hover {
-    content: url('../Images&files/top2.png');
-    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
-}
-
 
 /* text */
 
@@ -145,17 +140,20 @@ section>p>a {
     font-size: 1.5vw;
 }
 
-section>a:hover,
-section>p>a:hover {
-    background-color: #DBB0FD;
-}
-
 
 /* responsive design */
 
 @media screen and (min-width:901px) {
     #projects {
         display: flex
+    }
+    section>a:hover,
+    section>p>a:hover {
+        background-color: #DBB0FD;
+    }
+    #top:hover {
+        content: url('../Images&files/top2.png');
+        box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
     }
 }
 
