@@ -22,13 +22,13 @@ body>h1 {
     margin-top: -1vw;
 }
 
-@media screen and (min-width:1024px) {
+@media screen and (min-width:700px) {
     #projects {
         display: flex;
     }
 }
 
-@media screen and (max-width:1023px) {
+@media screen and (max-width:701px) {
     #projects {
         display: none
     }
