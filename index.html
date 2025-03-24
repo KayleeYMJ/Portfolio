@@ -1,25 +1,214 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html>
 
 <head>
-    <meta charset="utf-8">
-    <title>Kaylee's Web</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="css/home.css">
-    <link rel="shortcut icon" href="Images&files/icon.png" type="image/x-icon">
+    <title>Kaylee's Portfolio</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 </head>
 
-<body>
-    <canvas id="myCanvas" width="5000" height="3000">
-        Current browser cannot support " canvas ", please change another browser, like Chrome.
-    </canvas>
-    <img src="Images&files/home.png" alt="home" id="white-home">
-    <div>
-        <h1>Hi, I'm Kaylee Song.</h1>
-        <h2>Welcome to my website.</h1>
+<body class="is-preload">
+
+    <!-- Sidebar -->
+    <section id="sidebar">
+        <div class="inner">
+            <nav>
+                <ul>
+                    <li><a href="#intro">Welcome</a></li>
+                    <li><a href="#one">Experience</a></li>
+                    <li><a href="#two">Project</a></li>
+                    <li><a href="#three">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+        <!-- Intro -->
+        <section id="intro" class="wrapper style1 fullscreen fade-up">
+            <div class="inner">
+                <h1>Welcome to my Portfolio!</h1>
+                <p>Hi there! I'm Kaylee, and I'm thrilled to have you here.</p>
+                <ul class="actions">
+                    <li><a href="#one" class="button scrolly">Explore more</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- One -->
+        <section id="one" class="wrapper style2 spotlights">
+            <section>
+                <a href="#" class="image"><img src="images/pic01.png" alt="" data-position="center center" /></a>
+                <div class="content">
+                    <div class="inner">
+                        <h2>Front End Developer Intern</h2>
+                        <p>Australian Management College</p>
+                        <p>Feb 2025 - May 2025</p>
+                        <lu>
+                            <li>Created responsive web interfaces using WordPress and JavaScript, enhancing user experience.</li>
+                            <li>Engaged in user feedback analysis to inform design decisions for improved functionality.</li>
+                            <li>Managed code versions using Git and GitHub for effective team collaboration.</li>
+                        </lu>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <a href="#" class="image"><img src="images/pic02.png" alt="" data-position="top center" /></a>
+                <div class="content">
+                    <div class="inner">
+                        <h2>Full Stack Developer Intern</h2>
+                        <p>Victorion</p>
+                        <p>Sep 2024 - Dec 2024</p>
+                        <lu>
+                            <li>Developed and maintained web applications using PHP and MySQL in a cloud-native environment.</li>
+                            <li>Designed user interfaces with Vue.js and React, optimizing for performance and scalability.</li>
+                            <li>Collaborated with cross-functional teams to define, develop, and deliver new features.</li>
+                            <li>Implemented RESTful APIs for seamless communication between front-end and back-end systems.</li>
+                        </lu>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <a href="#" class="image"><img src="images/pic03.png" alt="" data-position="25% 25%" /></a>
+                <div class="content">
+                    <div class="inner">
+                        <h2>Master of Information Technology</h2>
+                        <p>University of Queensland</p>
+                        <p>Relevant Coursework: Cloud Computing, Web Information Systems, Design Computing, Software Engineering, Human-Computer interaction, Data Structures & Algorithm and so on.</p>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- Two -->
+        <section id="two" class="wrapper style3 fade-up">
+            <div class="inner">
+                <h2>Explore My Projects</h2>
+                <p>Here you will find a collection of my projects, showcasing the diverse range of skills I have developed as a developer. <br /> Each project reflects my commitment to creating engaging and effective solutions. Take a look around and see
+                    what I've created!
+                </p>
+                <div class="features">
+                    <section>
+                        <span class="icon solid major fa-school"></span>
+                        <h3>
+                            <a href="https://github.com/kexing-easygo/uq-easygo">UQ Easy Go</a></h3>
+                        <p>This is a mini-program of WeChat developed by "kexing" organization, which aims to help students to manage courses information easily. It allows students to comment courses, set deadlines of assignments, set timetable, calculate
+                            final marks and so on. We used some technicals to develop it, such as crawler for fetching the courses' information, React for front-end developing, databases for storing users' information, Git for version control and so on.</p>
+                    </section>
+                    <section>
+                        <span class="icon solid major fa-fish"></span>
+                        <h3>
+                            <a href="https://github.com/KayleeYMJ/Pacific_Underwater_Resort">Pacific Underwater Resort</a></h3>
+                        <p>A web designed for some people who like exploring underwater. Functions include booking diving suits, diving trainings, dinner, transports and rooms. Also, it shows map and history of this resort. Additionally, this web has some
+                            basic functions like login, sign up and contact.</p>
+                    </section>
+                    <section>
+                        <span class="icon solid major fa-book"></span>
+                        <h3>
+                            <a href="https://github.com/KayleeYMJ/CourseReview">Course Review</a></h3>
+                        <p>An online discussion platform which provides opportunities for users to comment courses and view others' comments, based on UQ cloud. By visiting this web, users can search some courses, like "INFS7202", add courses' reviews, see
+                            others' reviews, collect favorite reviews and so on. For managers, they have rights to audit in order to avoid some advertisements or verbal aggression.</p>
+                    </section>
+                    <section>
+                        <span class="icon solid major fa-link"></span>
+                        <h3>Find Koala</h3>
+                        <p>A website designed for travel recording and experience sharing, which are used to record people's travel photos and videos in real time, and also it automatically generates "travel memories", which can be used for people to enjoy
+                            and share with their friends. Additionally, this app allows users to export their experience in different formats, such as zip folders.</p>
+                    </section>
+                    <section>
+                        <span class="icon solid major fa-bomb"></span>
+                        <h3>
+                            <a href="https://github.com/KayleeYMJ/EndOfDayZ">End Of Dayz</a></h3>
+                        <p>This is a small game which allows zombies to pursue a player. If zombies run into a player, the player would be lose. When the player picks up an item, that item is added to an inventory, but not immediately applied. The inventory
+                            is displayed to the right of the game map. The user can activate and deactivate items by left clicking on them in the inventory. When an item is activated, it begins working, and its lifetime decreases by 1 every second. Additionally,
+                            if the player arrive at the hospital, the player would be win.</p>
+                    </section>
+                    <section>
+                        <span class="icon major fa-ship"></span>
+                        <h3>
+                            <a href="https://github.com/KayleeYMJ/CargoPortSystem">Cargo Port System</a></h3>
+                        <p>A cargo port system manages the movement of ships around a port, including loading and unloading ships at quays, storing cargo at the port temporarily, and managing a queue of ships waiting offshore to dock at the port. The system
+                            also keeps track of statistics relating to the port's operations.</p>
+                    </section>
+                </div>
+                <ul class="actions">
+                    <li><a href="https://github.com/KayleeYMJ" class="button">Explore more</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Three -->
+        <section id="three" class="wrapper style1 fade-up">
+            <div class="inner">
+                <h2>Get in touch</h2>
+                <p>Whether you're looking to collaborate on a project, have questions, or want to discuss job opportunities, I'm here. <br /> Please feel free to send me an email or connect with me on social media. Let's start a conversation!</p>
+                <div class="split style1">
+                    <section>
+                        <form method="post" action="https://api.web3forms.com/submit">
+                            <input type="hidden" name="access_key" value="8135668b-afa9-4270-a333-a36adb0ed79c">
+                            <div class="fields">
+                                <div class="field half">
+                                    <label for="name">Name</label>
+                                    <input type="text" name="name" id="name" />
+                                </div>
+                                <div class="field half">
+                                    <label for="email">Email</label>
+                                    <input type="text" name="email" id="email" />
+                                </div>
+                                <div class="field">
+                                    <label for="message">Message</label>
+                                    <textarea name="message" id="message" rows="5"></textarea>
+                                </div>
+                            </div>
+                            <ul class="actions">
+                                <li><a href="" class="button submit">Send Message</a></li>
+                            </ul>
+                        </form>
+                    </section>
+                    <section>
+                        <ul class="contact">
+                            <li>
+                                <h3>Social</h3>
+                                <ul class="icons">
+                                    <li><a href="https://github.com/KayleeYMJ" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+                                    <li><a href="https://www.linkedin.com/in/kayleesong/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h3>Email</h3>
+                                <a href="mailto:kaylee.song.it@gmail.com">kaylee.song.it@gmail.com</a>
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </section>
     </div>
-    <a href="projects.html" id="explore-button">Explore Site</a>
-    <script src="js/script.js"></script>
+
+    <!-- Footer -->
+    <footer id="footer" class="wrapper style1-alt">
+        <div class="inner">
+            <ul class="menu">
+                <li>&copy; Copyright. All rights reserved.</li>
+                <li>Terms & Conditions</li>
+                <li>Privacy Policy</li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
 </body>
 
 </html>
